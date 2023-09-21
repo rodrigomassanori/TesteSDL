@@ -1,0 +1,678 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/LLVM/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/3.22.22040401-MSVC_2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/3.22.22040401-MSVC_2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_91818/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_91818.dir/build.make CMakeFiles/cmTC_91818.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91818.dir/CMakeCCompilerABI.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_91818.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_91818.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_91818.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_91818.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_91818.dir/objects1.rsp -o cmTC_91818.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_91818.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_91818.pdb -Xlinker /version:0.0  
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_9ee10/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_9ee10.dir/build.make CMakeFiles/cmTC_9ee10.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ee10.dir/CMakeCXXCompilerABI.cpp.obj
+"C:/Program Files/LLVM/bin/clang++.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_9ee10.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_9ee10.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_9ee10.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_9ee10.exe
+"C:/Program Files/LLVM/bin/clang++.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_9ee10.dir/objects1.rsp -o cmTC_9ee10.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9ee10.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_9ee10.pdb -Xlinker /version:0.0  
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_d1865/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_d1865.dir/build.make CMakeFiles/cmTC_d1865.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1865.dir/feature_tests.cxx.obj
+"C:/Program Files/LLVM/bin/clang++.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_d1865.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_d1865.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_d1865.dir/feature_tests.cxx.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d1865.exe
+"C:/Program Files/LLVM/bin/clang++.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_d1865.dir/objects1.rsp -o cmTC_d1865.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d1865.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_d1865.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_d1865.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_504fb/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_504fb.dir/build.make CMakeFiles/cmTC_504fb.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_504fb.dir/feature_tests.cxx.obj
+"C:/Program Files/LLVM/bin/clang++.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_504fb.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_504fb.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_504fb.dir/feature_tests.cxx.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_504fb.exe
+"C:/Program Files/LLVM/bin/clang++.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_504fb.dir/objects1.rsp -o cmTC_504fb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_504fb.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_504fb.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_504fb.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_54230/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_54230.dir/build.make CMakeFiles/cmTC_54230.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54230.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_WALL  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wall -MD -MT CMakeFiles/cmTC_54230.dir/src.c.obj -MF CMakeFiles/cmTC_54230.dir/src.c.obj.d -o CMakeFiles/cmTC_54230.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_54230.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_54230.dir/objects1.rsp -o cmTC_54230.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_54230.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_54230.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_54230.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_1676a/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_1676a.dir/build.make CMakeFiles/cmTC_1676a.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1676a.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_NO_STRICT_ALIASING  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -fno-strict-aliasing -MD -MT CMakeFiles/cmTC_1676a.dir/src.c.obj -MF CMakeFiles/cmTC_1676a.dir/src.c.obj.d -o CMakeFiles/cmTC_1676a.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1676a.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_1676a.dir/objects1.rsp -o cmTC_1676a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1676a.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_1676a.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_1676a.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_40071/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_40071.dir/build.make CMakeFiles/cmTC_40071.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40071.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_WDECLARATION_AFTER_STATEMENT  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wdeclaration-after-statement -MD -MT CMakeFiles/cmTC_40071.dir/src.c.obj -MF CMakeFiles/cmTC_40071.dir/src.c.obj.d -o CMakeFiles/cmTC_40071.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_40071.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_40071.dir/objects1.rsp -o cmTC_40071.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_40071.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_40071.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_40071.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_95c70/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_95c70.dir/build.make CMakeFiles/cmTC_95c70.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95c70.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_ATOMICS  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_95c70.dir/src.c.obj -MF CMakeFiles/cmTC_95c70.dir/src.c.obj.d -o CMakeFiles/cmTC_95c70.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_95c70.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_95c70.dir/objects1.rsp -o cmTC_95c70.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_95c70.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_95c70.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_95c70.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_28cd8/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_28cd8.dir/build.make CMakeFiles/cmTC_28cd8.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28cd8.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_WSHADOW  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -Wshadow -MD -MT CMakeFiles/cmTC_28cd8.dir/src.c.obj -MF CMakeFiles/cmTC_28cd8.dir/src.c.obj.d -o CMakeFiles/cmTC_28cd8.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28cd8.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_28cd8.dir/objects1.rsp -o cmTC_28cd8.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_28cd8.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_28cd8.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_28cd8.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_88122/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_88122.dir/build.make CMakeFiles/cmTC_88122.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88122.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_NO_UNDEFINED  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -Wl,--no-undefined -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_88122.dir/src.c.obj -MF CMakeFiles/cmTC_88122.dir/src.c.obj.d -o CMakeFiles/cmTC_88122.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+clang: warning: -Wl,--no-undefined: 'linker' input unused [-Wunused-command-line-argument]
+Linking C executable cmTC_88122.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -Wl,--no-undefined -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_88122.dir/objects1.rsp -o cmTC_88122.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_88122.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_88122.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_88122.dir/linklibs.rsp 
+lld-link: warning: ignoring unknown argument '--no-undefined'
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_93966/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_93966.dir/build.make CMakeFiles/cmTC_93966.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93966.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_MMX  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -mmmx -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_93966.dir/src.c.obj -MF CMakeFiles/cmTC_93966.dir/src.c.obj.d -o CMakeFiles/cmTC_93966.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_93966.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -mmmx -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_93966.dir/objects1.rsp -o cmTC_93966.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_93966.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_93966.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_93966.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_2f854/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_2f854.dir/build.make CMakeFiles/cmTC_2f854.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f854.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_3DNOW  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -m3dnow -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2f854.dir/src.c.obj -MF CMakeFiles/cmTC_2f854.dir/src.c.obj.d -o CMakeFiles/cmTC_2f854.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2f854.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -m3dnow -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_2f854.dir/objects1.rsp -o cmTC_2f854.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2f854.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_2f854.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_2f854.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+            return 0;
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_b3da7/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_b3da7.dir/build.make CMakeFiles/cmTC_b3da7.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3da7.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_SSE  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -msse -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b3da7.dir/src.c.obj -MF CMakeFiles/cmTC_b3da7.dir/src.c.obj.d -o CMakeFiles/cmTC_b3da7.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b3da7.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -msse -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_b3da7.dir/objects1.rsp -o cmTC_b3da7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b3da7.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_b3da7.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_b3da7.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_a70de/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_a70de.dir/build.make CMakeFiles/cmTC_a70de.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a70de.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_SSE2  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -msse2 -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a70de.dir/src.c.obj -MF CMakeFiles/cmTC_a70de.dir/src.c.obj.d -o CMakeFiles/cmTC_a70de.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a70de.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -msse2 -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_a70de.dir/objects1.rsp -o cmTC_a70de.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_a70de.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_a70de.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_a70de.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_0b0c9/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_0b0c9.dir/build.make CMakeFiles/cmTC_0b0c9.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b0c9.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_SSE3  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -msse3 -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0b0c9.dir/src.c.obj -MF CMakeFiles/cmTC_0b0c9.dir/src.c.obj.d -o CMakeFiles/cmTC_0b0c9.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0b0c9.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -msse3 -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_0b0c9.dir/objects1.rsp -o cmTC_0b0c9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0b0c9.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_0b0c9.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_0b0c9.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { return 0; }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_ece84/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_ece84.dir/build.make CMakeFiles/cmTC_ece84.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ece84.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ece84.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_ece84.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_ece84.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ece84.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_ece84.dir/objects1.rsp -o cmTC_ece84.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ece84.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_ece84.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_ece84.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_b1137/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_b1137.dir/build.make CMakeFiles/cmTC_b1137.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1137.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b1137.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_b1137.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_b1137.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b1137.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_b1137.dir/objects1.rsp -o cmTC_b1137.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b1137.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_b1137.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_b1137.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_WIN32_CC succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_11ea3/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_11ea3.dir/build.make CMakeFiles/cmTC_11ea3.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11ea3.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_WIN32_CC  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_11ea3.dir/src.c.obj -MF CMakeFiles/cmTC_11ea3.dir/src.c.obj.d -o CMakeFiles/cmTC_11ea3.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11ea3.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_11ea3.dir/objects1.rsp -o cmTC_11ea3.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_11ea3.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_11ea3.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_11ea3.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include <windows.h>
+    int main(int argc, char **argv) { return 0; }
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_34699/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_34699.dir/build.make CMakeFiles/cmTC_34699.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34699.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_34699.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_34699.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_34699.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_34699.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_34699.dir/objects1.rsp -o cmTC_34699.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_34699.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_34699.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_34699.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file d3d11_1.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_2956d/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_2956d.dir/build.make CMakeFiles/cmTC_2956d.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2956d.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_2956d.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_2956d.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_2956d.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2956d.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_2956d.dir/objects1.rsp -o cmTC_2956d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2956d.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_2956d.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_2956d.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_D3D12_H succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_e7e45/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_e7e45.dir/build.make CMakeFiles/cmTC_e7e45.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7e45.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_D3D12_H  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e7e45.dir/src.c.obj -MF CMakeFiles/cmTC_e7e45.dir/src.c.obj.d -o CMakeFiles/cmTC_e7e45.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e7e45.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_e7e45.dir/objects1.rsp -o cmTC_e7e45.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e7e45.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_e7e45.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_e7e45.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include <winsdkver.h>
+      #include <sdkddkver.h>
+      #include <d3d12.h>
+      ID3D12Device1 *device;
+      #if WDK_NTDDI_VERSION > 0x0A000008
+      int main(int argc, char **argv) { return 0; }
+      #endif
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_cfee9/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_cfee9.dir/build.make CMakeFiles/cmTC_cfee9.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cfee9.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cfee9.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_cfee9.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_cfee9.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cfee9.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_cfee9.dir/objects1.rsp -o cmTC_cfee9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_cfee9.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_cfee9.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_cfee9.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_0d33b/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_0d33b.dir/build.make CMakeFiles/cmTC_0d33b.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d33b.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0d33b.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_0d33b.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_0d33b.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0d33b.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_0d33b.dir/objects1.rsp -o cmTC_0d33b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0d33b.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_0d33b.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_0d33b.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_56c0b/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_56c0b.dir/build.make CMakeFiles/cmTC_56c0b.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56c0b.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_56c0b.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_56c0b.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_56c0b.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_56c0b.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_56c0b.dir/objects1.rsp -o cmTC_56c0b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_56c0b.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_56c0b.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_56c0b.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_580ee/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_580ee.dir/build.make CMakeFiles/cmTC_580ee.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_580ee.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_580ee.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_580ee.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_580ee.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_580ee.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_580ee.dir/objects1.rsp -o cmTC_580ee.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_580ee.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_580ee.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_580ee.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_XINPUT_H succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_83b84/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_83b84.dir/build.make CMakeFiles/cmTC_83b84.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83b84.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_XINPUT_H  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_83b84.dir/src.c.obj -MF CMakeFiles/cmTC_83b84.dir/src.c.obj.d -o CMakeFiles/cmTC_83b84.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_83b84.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_83b84.dir/objects1.rsp -o cmTC_83b84.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_83b84.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_83b84.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_83b84.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_WINDOWS_GAMING_INPUT_H succeeded with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_26cab/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_26cab.dir/build.make CMakeFiles/cmTC_26cab.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26cab.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_WINDOWS_GAMING_INPUT_H  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_26cab.dir/src.c.obj -MF CMakeFiles/cmTC_26cab.dir/src.c.obj.d -o CMakeFiles/cmTC_26cab.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_26cab.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_26cab.dir/objects1.rsp -o cmTC_26cab.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_26cab.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_26cab.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_26cab.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+      #define COBJMACROS
+      #include <windows.gaming.input.h>
+      __x_ABI_CWindows_CGaming_CInput_CIGamepadStatics2 *s2;
+      int main(int argc, char **argv) { return 0; }
+Determining if the include file tpcshrd.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_e7759/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_e7759.dir/build.make CMakeFiles/cmTC_e7759.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7759.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_e7759.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_e7759.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_e7759.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e7759.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_e7759.dir/objects1.rsp -o cmTC_e7759.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e7759.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_e7759.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_e7759.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file roapi.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_63685/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_63685.dir/build.make CMakeFiles/cmTC_63685.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63685.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_63685.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_63685.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_63685.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_63685.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_63685.dir/objects1.rsp -o cmTC_63685.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_63685.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_63685.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_63685.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file mmdeviceapi.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_4c143/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_4c143.dir/build.make CMakeFiles/cmTC_4c143.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c143.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_4c143.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_4c143.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_4c143.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4c143.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_4c143.dir/objects1.rsp -o cmTC_4c143.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4c143.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_4c143.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_4c143.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file audioclient.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_ca46b/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_ca46b.dir/build.make CMakeFiles/cmTC_ca46b.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca46b.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ca46b.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_ca46b.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_ca46b.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ca46b.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_ca46b.dir/objects1.rsp -o cmTC_ca46b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ca46b.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_ca46b.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_ca46b.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sensorsapi.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_0c007/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_0c007.dir/build.make CMakeFiles/cmTC_0c007.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c007.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0c007.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_0c007.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_0c007.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0c007.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_0c007.dir/objects1.rsp -o cmTC_0c007.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0c007.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_0c007.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_0c007.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file shellscalingapi.h exists passed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_ce5c6/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_ce5c6.dir/build.make CMakeFiles/cmTC_ce5c6.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce5c6.dir/CheckIncludeFile.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_ce5c6.dir/CheckIncludeFile.c.obj -MF CMakeFiles/cmTC_ce5c6.dir/CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_ce5c6.dir/CheckIncludeFile.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ce5c6.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_ce5c6.dir/objects1.rsp -o cmTC_ce5c6.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ce5c6.lib -Xlinker /pdb:C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/cmTC_ce5c6.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_ce5c6.dir/linklibs.rsp 
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+
+
+

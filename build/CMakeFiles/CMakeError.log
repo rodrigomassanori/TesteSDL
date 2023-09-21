@@ -1,0 +1,228 @@
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_cf3cd/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_cf3cd.dir/build.make CMakeFiles/cmTC_cf3cd.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf3cd.dir/CheckSymbolExists.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cf3cd.dir/CheckSymbolExists.c.obj -MF CMakeFiles/cmTC_cf3cd.dir/CheckSymbolExists.c.obj.d -o CMakeFiles/cmTC_cf3cd.dir/CheckSymbolExists.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
+  return ((int*)(&__GLIBC__))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_cf3cd.dir/build.make:79: CMakeFiles/cmTC_cf3cd.dir/CheckSymbolExists.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_cf3cd/fast] Error 2
+
+
+File C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_45e01/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_45e01.dir/build.make CMakeFiles/cmTC_45e01.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45e01.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -mpreferred-stack-boundary=2 -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_45e01.dir/src.c.obj -MF CMakeFiles/cmTC_45e01.dir/src.c.obj.d -o CMakeFiles/cmTC_45e01.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-mpreferred-stack-boundary=2'
+make[1]: *** [CMakeFiles/cmTC_45e01.dir/build.make:79: CMakeFiles/cmTC_45e01.dir/src.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_45e01/fast] Error 2
+
+
+Source file was:
+int x = 0; int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_24fc7/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_24fc7.dir/build.make CMakeFiles/cmTC_24fc7.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24fc7.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_GCC_FVISIBILITY  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -fvisibility=hidden -Werror -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_24fc7.dir/src.c.obj -MF CMakeFiles/cmTC_24fc7.dir/src.c.obj.d -o CMakeFiles/cmTC_24fc7.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c:3:8: error: SDL only uses visibility attributes in GCC 4 or newer
+      #error SDL only uses visibility attributes in GCC 4 or newer
+       ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_24fc7.dir/build.make:79: CMakeFiles/cmTC_24fc7.dir/src.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_24fc7/fast] Error 2
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_cc527/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_cc527.dir/build.make CMakeFiles/cmTC_cc527.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc527.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_ALTIVEC_H_HDR  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -maltivec -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_cc527.dir/src.c.obj -MF CMakeFiles/cmTC_cc527.dir/src.c.obj.d -o CMakeFiles/cmTC_cc527.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+In file included from C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c:2:
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:13:2: error: "AltiVec support not enabled"
+#error "AltiVec support not enabled"
+ ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:50:19: error: unknown type name 'vector'
+static __inline__ vector signed char __ATTRS_o_ai vec_perm(
+                  ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:51:5: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+    ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:51:29: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                            ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:51:53: error: unknown type name 'vector'
+    vector signed char __a, vector signed char __b, vector unsigned char __c);
+                                                    ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:53:19: error: unknown type name 'vector'
+static __inline__ vector unsigned char __ATTRS_o_ai
+                  ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:54:10: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+         ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:54:36: error: unknown type name 'vector'
+vec_perm(vector unsigned char __a, vector unsigned char __b,
+                                   ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:55:10: error: unknown type name 'vector'
+         vector unsigned char __c);
+         ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:57:19: error: unknown type name 'vector'
+static __inline__ vector bool char __ATTRS_o_ai
+                  ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:57:8: error: 'inline' can only appear on functions
+static __inline__ vector bool char __ATTRS_o_ai
+       ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:57:30: error: expected ';' after top level declarator
+static __inline__ vector bool char __ATTRS_o_ai
+                             ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:58:10: error: unknown type name 'vector'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+         ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:58:22: error: expected ')'
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+                     ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:58:9: note: to match this '('
+vec_perm(vector bool char __a, vector bool char __b, vector unsigned char __c);
+        ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:60:19: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                  ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:60:54: error: unknown type name 'vector'
+static __inline__ vector short __ATTRS_o_ai vec_perm(vector signed short __a,
+                                                     ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:61:54: error: unknown type name 'vector'
+                                                     vector signed short __b,
+                                                     ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:62:54: error: unknown type name 'vector'
+                                                     vector unsigned char __c);
+                                                     ^
+C:\Program Files\LLVM\lib\clang\14.0.0\include\altivec.h:64:19: error: unknown type name 'vector'
+static __inline__ vector unsigned short __ATTRS_o_ai
+                  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+make[1]: *** [CMakeFiles/cmTC_cc527.dir/build.make:79: CMakeFiles/cmTC_cc527.dir/src.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_cc527/fast] Error 2
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_036b3/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_036b3.dir/build.make CMakeFiles/cmTC_036b3.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_036b3.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_ALTIVEC  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos" -maltivec -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_036b3.dir/src.c.obj -MF CMakeFiles/cmTC_036b3.dir/src.c.obj.d -o CMakeFiles/cmTC_036b3.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
+C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c:2:11: error: unknown type name 'vector'
+          vector unsigned int vzero() {
+          ^
+C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c:3:22: warning: implicit declaration of function 'vec_splat_u32' is invalid in C99 [-Wimplicit-function-declaration]
+              return vec_splat_u32(0);
+                     ^
+1 warning and 1 error generated.
+make[1]: *** [CMakeFiles/cmTC_036b3.dir/build.make:79: CMakeFiles/cmTC_036b3.dir/src.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_036b3/fast] Error 2
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_XINPUT_GAMEPAD_EX failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_a37c8/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_a37c8.dir/build.make CMakeFiles/cmTC_a37c8.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a37c8.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_XINPUT_GAMEPAD_EX  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_a37c8.dir/src.c.obj -MF CMakeFiles/cmTC_a37c8.dir/src.c.obj.d -o CMakeFiles/cmTC_a37c8.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c:4:7: error: unknown type name 'XINPUT_GAMEPAD_EX'; did you mean 'XINPUT_GAMEPAD'?
+      XINPUT_GAMEPAD_EX x1;
+      ^~~~~~~~~~~~~~~~~
+      XINPUT_GAMEPAD
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\xinput.h:203:3: note: 'XINPUT_GAMEPAD' declared here
+} XINPUT_GAMEPAD, *PXINPUT_GAMEPAD;
+  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a37c8.dir/build.make:79: CMakeFiles/cmTC_a37c8.dir/src.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_a37c8/fast] Error 2
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_GAMEPAD_EX x1;
+      int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_XINPUT_STATE_EX failed with the following output:
+Change Dir: C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/devkitPro/msys2/usr/bin/make.exe -f Makefile cmTC_3c3d9/fast && /opt/devkitpro/msys2/usr/bin/make  -f CMakeFiles/cmTC_3c3d9.dir/build.make CMakeFiles/cmTC_3c3d9.dir/build
+make[1]: Entering directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c3d9.dir/src.c.obj
+"C:/Program Files/LLVM/bin/clang.exe" -DHAVE_XINPUT_STATE_EX  -idirafter "C:/Users/rodri/Documents/TesteSDL/build/_deps/sdl2-src/src/video/khronos"  -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_3c3d9.dir/src.c.obj -MF CMakeFiles/cmTC_3c3d9.dir/src.c.obj.d -o CMakeFiles/cmTC_3c3d9.dir/src.c.obj -c C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c
+C:/Users/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp/src.c:4:7: error: unknown type name 'XINPUT_STATE_EX'; did you mean 'XINPUT_STATE'?
+      XINPUT_STATE_EX s1;
+      ^~~~~~~~~~~~~~~
+      XINPUT_STATE
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\xinput.h:209:3: note: 'XINPUT_STATE' declared here
+} XINPUT_STATE, *PXINPUT_STATE;
+  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3c3d9.dir/build.make:79: CMakeFiles/cmTC_3c3d9.dir/src.c.obj] Error 1
+make[1]: Leaving directory '/home/rodri/Documents/TesteSDL/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_3c3d9/fast] Error 2
+
+
+Source file was:
+
+      #include <windows.h>
+      #include <xinput.h>
+      XINPUT_STATE_EX s1;
+      int main(int argc, char **argv) { return 0; }
